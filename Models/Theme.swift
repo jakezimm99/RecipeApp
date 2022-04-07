@@ -32,4 +32,8 @@ case bubblegum
             case .indigo, .magenta, .navy, .oxblood, .purple: return .white
             }
         }
+    
+    var mainColor: Color {
+            Color(rawValue)
+        }
 }
