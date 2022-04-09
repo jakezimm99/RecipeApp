@@ -14,21 +14,21 @@ struct ContentView: View {
             VStack() {
                 Text("Recipe App")
                     .font(.largeTitle)
-                .foregroundColor(Color.red)
+                    .foregroundColor(.blue)
                 Text("Powered by Zimm and Linds")
                     .font(.subheadline)
                     .padding(.bottom)
-                NavigationLink(destination: Text("A test!")
-                    .foregroundColor(.green)) {
-                    Text("Find Recipes")
-                        .foregroundColor(.red)
-                    
-                    }
+                    .foregroundColor(.blue)
+                NavigationLink("Find Recipes",destination: Text("A test!")).background(.blue)
+                    .foregroundColor(.white)
+                NavigationLink("Login/Create Account", destination: LoginView()).background(.brown)
+                    .foregroundColor(.white)
+                
                 Spacer()
             }
             Spacer()
-        }
-        }
+        }.background(.primary)
+    }
         
     
 }

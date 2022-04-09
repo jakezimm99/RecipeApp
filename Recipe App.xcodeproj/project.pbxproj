@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E64BAF728021959000E4FAB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E878B4B2802177500FBB5D3 /* LoginView.swift */; };
 		6E878B2327FF59A800FBB5D3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E878B2227FF59A800FBB5D3 /* Tests_iOS.swift */; };
 		6E878B2527FF59A800FBB5D3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E878B2427FF59A800FBB5D3 /* Tests_iOSLaunchTests.swift */; };
 		6E878B2F27FF59A800FBB5D3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E878B2E27FF59A800FBB5D3 /* Tests_macOS.swift */; };
@@ -18,6 +19,7 @@
 		6E878B3627FF59A800FBB5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E878B0C27FF59A800FBB5D3 /* Assets.xcassets */; };
 		6E878B3727FF59A800FBB5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E878B0C27FF59A800FBB5D3 /* Assets.xcassets */; };
 		6E878B4827FF601F00FBB5D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E878B4727FF601F00FBB5D3 /* Theme.swift */; };
+		6E878B4C2802177500FBB5D3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E878B4B2802177500FBB5D3 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		6E878B2E27FF59A800FBB5D3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6E878B3027FF59A800FBB5D3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		6E878B4727FF601F00FBB5D3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6E878B4B2802177500FBB5D3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				6E878B0A27FF59A500FBB5D3 /* Recipe_AppApp.swift */,
 				6E878B0B27FF59A500FBB5D3 /* ContentView.swift */,
 				6E878B0C27FF59A800FBB5D3 /* Assets.xcassets */,
+				6E878B4B2802177500FBB5D3 /* LoginView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -312,6 +316,7 @@
 			files = (
 				6E878B4827FF601F00FBB5D3 /* Theme.swift in Sources */,
 				6E878B3427FF59A800FBB5D3 /* ContentView.swift in Sources */,
+				6E878B4C2802177500FBB5D3 /* LoginView.swift in Sources */,
 				6E878B3227FF59A800FBB5D3 /* Recipe_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E64BAF728021959000E4FAB /* LoginView.swift in Sources */,
 				6E878B3527FF59A800FBB5D3 /* ContentView.swift in Sources */,
 				6E878B3327FF59A800FBB5D3 /* Recipe_AppApp.swift in Sources */,
 			);
